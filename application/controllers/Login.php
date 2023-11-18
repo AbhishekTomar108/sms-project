@@ -92,10 +92,10 @@ class Login extends CI_Controller {
         $response = array();
 
         //Recieving post input of email, password from ajax request
-        // $email = $_POST["email"];
-        // $password = $_POST["password"];
-        $email = "admin@admin.com";
-        $password = "9585eba";
+        $email = $_POST["email"];
+        $password = $_POST["password"];
+        // $email = "admin@admin.com";
+        // $password = "9585eba";
 
         
         $response['submitted_data'] = $_POST;
